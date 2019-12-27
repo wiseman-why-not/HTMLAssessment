@@ -1,0 +1,46 @@
+h1, h2, h3, h4, h5, h6 {
+  color: red;
+  font-family: sans-serif;
+}
+img {
+  background: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url("https://www.abc.com/img1.jpg") no-repeat;
+}
+
+form{
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.50);
+}
+
+table {
+  border: 3px solid black;
+  text-align: center;
+}
+ thead {
+  color: blue;
+ }
+
+ul {
+  list-style: square;
+}
+a:hover{
+  background-color: yellow;
+  text-decoration: none;
+}
+
+blockquote {
+  background-color: #8D8741;
+  color: #FBEEC1;
+}
+#checkbox-grid{
+  list-style:none;
+}
+ul li img {
+  display: none;
+}
+
+ul ul{
+  background: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg") no-repeat;
+}
+
+/* #teamRoster ul  {
+  background: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg") no-repeat;
+}  */
