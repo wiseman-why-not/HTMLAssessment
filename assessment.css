@@ -37,10 +37,10 @@ ul li img {
   display: none;
 }
 
-ul ul{
+ul#teamRoster > li:first-child{
   background: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg") no-repeat;
 }
 
-/* #teamRoster ul  {
+ul#teamRoster > li:last-child{
   background: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg") no-repeat;
-}  */
+}
