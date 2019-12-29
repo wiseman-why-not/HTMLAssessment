@@ -44,3 +44,10 @@ ul#teamRoster > li:first-child{
 ul#teamRoster > li:last-child{
   background: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg") no-repeat;
 }
+
+ul#teamRoster > li:first-child ol > li:first-child{
+  font-weight: bold;
+}
+ul#teamRoster > li:last-child ol > li:first-child{
+  font-weight: bold;
+}
